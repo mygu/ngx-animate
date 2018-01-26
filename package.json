@@ -1,0 +1,76 @@
+{
+  "name": "ngx-animate",
+  "version": "1.0.0",
+  "description": "A very cool Angular animation library.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run clean && ngc -p tsconfig-prod.json",
+    "build:demo": "rimraf demo-dist && cross-env NODE_ENV=production webpack && cp index.html favicon.ico demo-dist",
+    "clean": "rimraf lib",
+    "deploy": "gh-pages -d demo-dist",
+    "start": "webpack-dev-server --inline",
+    "lint": "tslint \"./src/**/*.ts\"",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mygu/ngx-animate"
+  },
+  "keywords": [
+    "angular",
+    "animations"
+  ],
+  "author": "Mingyu Gu <mingyugu0410@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mygu/ngx-animate/issues"
+  },
+  "homepage": "https://github.com/mygu/ngx-animate#readme",
+  "devDependencies": {
+    "@angular/animations": "^5.0.1",
+    "@angular/common": "^5.0.1",
+    "@angular/compiler": "^5.0.1",
+    "@angular/compiler-cli": "^5.0.1",
+    "@angular/core": "^5.0.1",
+    "@angular/forms": "^5.0.1",
+    "@angular/http": "^5.0.1",
+    "@angular/platform-browser": "^5.0.1",
+    "@angular/platform-browser-dynamic": "^5.0.1",
+    "@angular/platform-server": "^5.0.1",
+    "@angular/router": "^5.0.1",
+    "@ngtools/webpack": "^1.8.1",
+    "@types/node": "^8.0.17",
+    "angular2-template-loader": "^0.6.2",
+    "codelyzer": "^3.1.2",
+    "copy-webpack-plugin": "^4.0.1",
+    "core-js": "^2.4.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "gh-pages": "^1.0.0",
+    "husky": "^0.14.3",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.10",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.5.2",
+    "ts-loader": "^2.3.2",
+    "tslint": "^5.5.0",
+    "typescript": "2.4.2",
+    "web-animations-js": "^2.3.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1",
+    "zone.js": "^0.8.16"
+  },
+  "peerDependencies": {
+    "@angular/animations": "^5.0.1",
+    "@angular/core": "^5.0.1",
+    "web-animations-js": "^2.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
+}
