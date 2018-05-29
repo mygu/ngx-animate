@@ -10,7 +10,7 @@ This library is thanks to [jiayihu<ng-animate>](https://github.com/jiayihu/ng-an
 
 ## Demo
 
-The demo of the animations is available at [https://jiayihu.github.io/ng-animate/](https://jiayihu.github.io/ng-animate/).
+The demo of the animations is available at [https://mygu.github.io/ngx-animate/](https://mygu.github.io/ngx-animate/).
 
 ## Usage
 
