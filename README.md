@@ -1,12 +1,12 @@
-# 🌙 ngx-animate
+# ngx-animate
 
 [![npm](https://img.shields.io/npm/v/ngx-animate.svg)](https://www.npmjs.com/package/ngx-animate)
 
 `ngx-animate` is a collection of cool, reusable and flexible animations for Angular. It implements all the animations in [animate.css](https://daneden.github.io/animate.css/), but with the power and flexibility of [Angular animations](https://angular.io/guide/animations) instead of CSS.
 
-This library is thanks to [jiayihu<ng-animate>](https://github.com/jiayihu/ng-animate) for Angular 4.2+, this library compiled version of Angular 5.0.1+. You can support it if you like.
+This library is thanks to [jiayihu<ng-animate>](https://github.com/jiayihu/ng-animate) for angular `4.2.0`.
 
-> **Note**: the library requires Angular 5.0.1+, which introduced [different new animation APIs](http://angularjs.blogspot.it/2017/06/angular-42-now-available.html) needed by `ngx-animate`.
+This library will support more than version(`>=4.2.0 <7.0.0`).The creation of this library is because the original author is no longer updated, but my team needs higher angular version support.If you like, you can support it.(￣︶￣)
 
 ## Demo
 

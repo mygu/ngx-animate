@@ -1,6 +1,6 @@
 {
   "name": "ngx-animate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very cool Angular animation library.",
   "main": "lib/index.js",
   "files": [
@@ -65,8 +65,8 @@
     "zone.js": "^0.8.16"
   },
   "peerDependencies": {
-    "@angular/animations": "^5.0.1",
-    "@angular/core": "^5.0.1",
+    "@angular/animations": ">=4.2.0 <7.0.0",
+    "@angular/core": ">=4.2.0 <7.0.0",
     "web-animations-js": "^2.0.0"
   },
   "directories": {
