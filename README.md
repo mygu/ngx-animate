@@ -1,6 +1,8 @@
 # ngx-animate
 
 [![npm](https://img.shields.io/npm/v/ngx-animate.svg)](https://www.npmjs.com/package/ngx-animate)
+[![licence](https://img.shields.io/github/license/mygu/ngx-animate.svg)](https://www.npmjs.com/package/ngx-animate)
+
 
 `ngx-animate` is a collection of cool, reusable and flexible animations for Angular. It implements all the animations in [animate.css](https://daneden.github.io/animate.css/), but with the power and flexibility of [Angular animations](https://angular.io/guide/animations) instead of CSS.
 
